@@ -1,0 +1,1 @@
+system("tcpdump -i wlan0 -c 10 dst port 5500 -w csi_data.pcap");
